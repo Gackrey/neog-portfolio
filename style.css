@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #b429b4;
+    --secondary-color: #dfd2d2;;
+}
+nav{
+    background-color:var(--primary-color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 19px;
+}
+.active-page{
+    font-size: 20px;
+    color: white;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.heading-center{
+    text-align: center;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+.color-back{
+    margin-top: 10px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    text-align: center;
+}
+.color-trans{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#project{
+    margin-top: 10px;
+}
+.link-button-pri{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    margin: 10px;
+    padding: 4px 8px;
+    border-radius: 7px;
+}
+.link-button-pri:hover{
+    border: 1px solid;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
+}
+.link-button-sec{
+    text-decoration: none;
+    background-color: white;
+    color: var(--primary-color);
+    margin: 10px;
+    padding: 4px 8px;
+    border-radius: 7px;
+    border-color: var(--primary-color);
+    border: 1px solid;
+}
+.link-button-sec:hover{
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+}
+.project{
+    margin: 10px;
+}
+.project-desc{
+    text-align: start;
+}
+#blogs .blog{
+    margin: 10px;
+}
+.shorts{
+    font-size: 20px;
+    text-align: start;
+}
+footer{
+    background-color: var(--primary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    margin: 10px 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer ul li a:hover{
+    color: black;
+}
+#footer-rest{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
