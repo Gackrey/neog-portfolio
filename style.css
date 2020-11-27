@@ -35,6 +35,9 @@ nav ul li a{
 .heading-center{
     text-align: center;
 }
+span{
+    font-weight: bold;
+}
 .image img{
     height: 400px;
     width: 400px;
