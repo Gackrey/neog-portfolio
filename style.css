@@ -98,6 +98,12 @@ p{
 #blogs .blog{
     margin: 10px;
 }
+.blogdiv{
+    margin: 20px;
+}
+.blogdiv img{
+    width: 350px;
+}
 .shorts{
     font-size: 20px;
     text-align: start;
