@@ -63,7 +63,6 @@ p{
 }
 #projects{
     display: grid;
-    background-color: #d4c6c6;
     height: 90vh;
     grid-template-columns: repeat(3,1fr);
 }
@@ -148,4 +147,16 @@ footer ul li a:hover{
     position: absolute;
     width: 100vw;
     bottom: 0;
+}
+@media only screen and (max-width:768px){
+    #projects{
+        display: block;
+    }
+    .image img{
+        height: 300px;
+        width: 300px;
+    }
+    #footer-rest{
+        bottom: -130vh;
+    }
 }
