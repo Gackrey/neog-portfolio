@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root{
-    --primary-color: #b429b4;
+    --primary-color: #d42166;
     --secondary-color: #dfd2d2;;
 }
 nav{
@@ -37,6 +37,7 @@ nav ul li a{
 }
 span{
     font-weight: bold;
+    font-style: italic;
 }
 .image img{
     height: 400px;
@@ -58,6 +59,15 @@ p{
     text-align: center;
 }
 #project{
+    margin-top: 10px;
+}
+#projects{
+    display: grid;
+    background-color: #d4c6c6;
+    height: 90vh;
+    grid-template-columns: repeat(3,1fr);
+}
+small{
     margin-top: 10px;
 }
 .link-button-pri{
@@ -90,10 +100,16 @@ p{
     color: white;
 }
 .project{
+    background-color: white;
     margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px grey;
 }
 .project-desc{
     text-align: start;
+    margin-top: 10px;
 }
 #blogs .blog{
     margin: 10px;
